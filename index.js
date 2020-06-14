@@ -1,3 +1,5 @@
+var recipe = {}
+
 function updateObjectByKeyAndValue(object, key, value) {
   var obj = Object.assign({}, object)
   obj[key] = value
